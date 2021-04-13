@@ -1,0 +1,220 @@
+site_name: Personal Development for Smart People
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Pink'
+  feature:
+    tabs: false
+  language: 'zh'
+
+plugins:
+  - search:
+      lang: 'ja'
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+
+nav:
+  - '首页': 'index.md'
+
+  - 'Ⅰ介绍':
+    - '什么是聪明人的个人发展？': '1.Introduction/01.What-Is-Personal-Development-for-Smart-People.md'
+    - '核心原则标准': '1.Introduction/02.Qualities-of-the-Core-Principles.md'
+    - '七项原则': '1.Introduction/03.Introducing-the-Seven-Principles.md'
+    - '如何读这本书': '1.Introduction/04.How-to-Read-This-Book.md'
+
+  - 'Ⅱ原则':
+    - '1.Truth':
+      - '1.1 简介': '2.Principles/01.truth/00.Truth.md'
+      - '1.2 感知': '2.Principles/01.truth/01.perception.md'
+      - '1.3 预测': '2.Principles/01.truth/02.prediction.md'
+      - '1.4 准确': '2.Principles/01.truth/03.accuracy.md'
+      - '1.5 可接受性': '2.Principles/01.truth/04.acceptance.md'
+      - '1.6 自我意识': '2.Principles/01.truth/05.self-awareness.md'
+      - '1.7 truth的阻碍':
+        - '序': '2.Principles/01.truth/06.blocks-to-truth.md'
+        - '媒体环境': '2.Principles/01.truth/07.media-conditioning.md'
+        - '社会环境': '2.Principles/01.truth/08.social-conditioning.md'
+        - '错误认知': '2.Principles/01.truth/09.false-beliefs.md'
+        - '情绪干扰': '2.Principles/01.truth/10.emotional-interference.md'
+        - '上瘾': '2.Principles/01.truth/11.addictions.md'
+        - '成熟度': '2.Principles/01.truth/12.immaturity.md'
+        - '次级收益': '2.Principles/01.truth/13.secondary-gain.md'
+      - '1.8 变得更加真实':
+        - '序': '2.Principles/01.truth/14.how-to-become-more-truthful.md'
+        - '自我评估': '2.Principles/01.truth/15.self-assessment.md'
+        - '日记': '2.Principles/01.truth/16.journaling.md'
+        - '媒体禁食': '2.Principles/01.truth/17.media-fasting.md'
+      - '1.9 小结': '2.Principles/01.truth/18.小结.md'
+    - '2.Love':
+      - '2.1 简介': '2.Principles/02.love/00.love.md'
+      - '2.2 连接': '2.Principles/02.love/01.connection.md'
+      - '2.3 （语言）交流': '2.Principles/02.love/02.communication.md'
+      - '2.4 （思想）交流': '2.Principles/02.love/03.communion.md'
+      - '2.5 爱的阻碍':
+        - '序': '2.Principles/02.love/04.block-to-love.md'
+        - '思维混乱': '2.Principles/02.love/04.disconnected-mind-set.md'
+        - '害怕拒绝': '2.Principles/02.love/05.fear-of-rejection.md'
+        - '矛盾': '2.Principles/02.love/06.incompatibility.md'
+        - '缺乏社交能力': '2.Principles/02.love/07.lack-of-social-skills.md'
+      - '2.6 如何连接的更深':
+        - '序': '2.Principles/02.love/08.how-to-connect-more-deeply.md'
+        - '练习联系': '2.Principles/02.love/09.exercise.md'
+        - '时空冥想': '2.Principles/02.love/10.time-travel-meditation.md'
+        - '分享': '2.Principles/02.love/11.sharing.md'
+        - '快进': '2.Principles/02.love/12.fast-forwarding.md'
+        - '直接方法': '2.Principles/02.love/13.direct-approach.md'
+        - '赞美': '2.Principles/02.love/14.appreciation.md'
+        - '感恩': '2.Principles/02.love/15.gratitude.md'
+      - '2.7 小结': '2.Principles/02.love/16.小结.md'
+    - '3.Power':
+      - '3.1 简介': '2.Principles/03.power/00.power.md'
+      - '3.2 责任': '2.Principles/03.power/01.responsibility.md'
+      - '3.3 欲望': '2.Principles/03.power/02.desire.md'
+      - '3.4 自我决定': '2.Principles/03.power/03.self-determination.md'
+      - '3.5 专注力': '2.Principles/03.power/04.focus.md'
+      - '3.6 努力': '2.Principles/03.power/05.effort.md'
+      - '3.7 自律': '2.Principles/03.power/06.self-discipline.md'
+      - '3.8 力量的阻碍':
+        - '序': '2.Principles/03.power/07.blocks-to-power.md'
+        - '胆小': '2.Principles/03.power/08.timidity.md'
+        - '懦弱': '2.Principles/03.power/09.cowardice.md'
+        - '负作用': '2.Principles/03.power/10.negative-conditioning.md'
+      - '3.9 如何拥有力量':
+        - '序': '2.Principles/03.power/11.how-to-build-your-power.md'
+        - '渐进式训练': '2.Principles/03.power/12.progressive-training.md'
+        - '利用第一个小时': '2.Principles/03.power/13.master-and-first-hour.md'
+        - '个人指标': '2.Principles/03.power/14.personal-quotas.md'
+        - '从最难的开始': '2.Principles/03.power/15.worst-first.md'
+        - '竞争': '2.Principles/03.power/16.competition.md'
+        - '休息': '2.Principles/03.power/17.rest.md'
+      - '3.10 小结': '2.Principles/03.power/18.小结.md'
+    - '4.oneness':
+      - '4.1 简介': '2.Principles/04.oneness/00.oneness.md'
+      - '4.2 共情': '2.Principles/04.oneness/01.empathy.md'
+      - '4.3 怜悯': '2.Principles/04.oneness/02.compassion.md'
+      - '4.4 诚实': '2.Principles/04.oneness/03.honesty.md'
+      - '4.5 公平': '2.Principles/04.oneness/04.fairness.md'
+      - '4.6 奉献': '2.Principles/04.oneness/05.contribution.md'
+      - '4.7 团结': '2.Principles/04.oneness/06.unity.md'
+      - '4.8 怎样体验oneness':
+        - '序': '2.Principles/04.oneness/07.experience-oneness.md'
+        - 'oneness世界': '2.Principles/04.oneness/08.oneness-world.md'
+        - '在自然中': '2.Principles/04.oneness/09.spend-time-in-nature.md'
+        - '身体接触': '2.Principles/04.oneness/10.physical-contact.md'
+        - '镜像练习': '2.Principles/04.oneness/11.mirror-exercise.md'
+      - '4.9 小结': '2.Principles/04.oneness/12.小结.md'
+    - '5.authority':
+        - '5.1 简介': '2.Principles/05.authority/00.authority.md'
+        - '5.2 命令': '2.Principles/05.authority/01.command.md'
+        - '5.3 高效 ': '2.Principles/05.authority/02.effectiveness.md'
+        - '5.4 坚持': '2.Principles/05.authority/03.persistence.md'
+        - '5.5 信心': '2.Principles/05.authority/04.confidence.md'
+        - '5.6 重要性': '2.Principles/05.authority/05.significance.md'
+        - '5.7 增加authority':
+          - '序': '2.Principles/05.authority/06.increase-authority.md'
+          - '策划小规模叛乱': '2.Principles/05.authority/07.orchestrate-small-rebellions.md'
+          - '分类': '2.Principles/05.authority/08.triage.md'
+          - '实验': '2.Principles/05.authority/09.experiment.md'
+        - '5.8 小结': '2.Principles/05.authority/10.小结.md'
+    - '6.courage':
+        - '6.1 简介': '2.Principles/06.courage/00.courage.md'
+        - '6.2 内心': '2.Principles/06.courage/01.heart.md'
+        - '6.3 主动': '2.Principles/06.courage/02.initiative.md'
+        - '6.4 直接': '2.Principles/06.courage/03.directness.md'
+        - '6.5 荣誉': '2.Principles/06.courage/04.honor.md'
+        - '6.6 如何建立勇气':
+          - '序': '2.Principles/06.courage/05.build-courage.md'
+          - '内心的问题': '2.Principles/06.courage/06.the-heart-question.md'
+          - '渐进式训练': '2.Principles/06.courage/07.progressive-training.md'
+          - '教育': '2.Principles/06.courage/08.education.md'
+          - '提前承诺': '2.Principles/06.courage/09.commit-in-advance.md'
+        - '6.7 小结': '2.Principles/06.courage/10.小结.md'
+    - '7.intelligence':
+        - '7.1 简介': '2.Principles/07.intelligence/00.intelligence.md'
+        - '7.2 真实性': '2.Principles/07.intelligence/01.authenticity.md'
+        - '7.3 创造性的自我表达': '2.Principles/07.intelligence/02.creative-self-expression.md'
+        - '7.4 成长': '2.Principles/07.intelligence/03.growth.md'
+        - '7.5 流（flow）': '2.Principles/07.intelligence/04.flow.md'
+        - '7.6 美': '2.Principles/07.intelligence/05.beauty.md'
+        - '7.7 如何聪明地生活':
+          - '序': '2.Principles/07.intelligence/06.live-intelligently.md'
+          - '有意识的评估': '2.Principles/07.intelligence/07.conscious-assessment.md'
+          - '“突击”成长': '2.Principles/07.intelligence/08.growth-blitzing.md'
+          - '培养智能微观': '2.Principles/07.intelligence/09.cultivate-an-intelligent-microcosm.md'
+        - '7.8 小结': '2.Principles/07.intelligence/10.小结.md'
+
+
+  - 'Ⅲ应用':
+    - '8.习惯':
+      - '8.1 简介': '3.Application/08.habits/00.habits.md'
+      - '8.2 习惯与真': '3.Application/08.habits/01.habits-and-truth.md'
+      - '8.3 习惯与爱': '3.Application/08.habits/02.habits-and-love.md'
+      - '8.4 习惯与力量': '3.Application/08.habits/03.habits-and-power.md'
+      - '8.5 习惯与一体化': '3.Application/08.habits/04.habits-and-oneness.md'
+      - '8.6 习惯与权威': '3.Application/08.habits/05.habits-and-authority.md'
+      - '8.7 习惯与勇气': '3.Application/08.habits/06.habits-and-courage.md'
+      - '8.8 习惯与智慧': '3.Application/08.habits/07.habtis-and-intelligence.md'
+      - '8.9 小结': '3.Application/08.habits/08.小结.md'
+    - '9.职业':
+      - '9.1 简介': '3.Application/09.career/00.career.md'
+      - '9.2 职业与真': '3.Application/09.career/01.career-and-truth.md'
+      - '9.3 职业与爱': '3.Application/09.career/02.career-and-love.md'
+      - '9.4 职业与力量': '3.Application/09.career/03.career-and-power.md'
+      - '9.5 职业与一体化': '3.Application/09.career/04.career-and-oneness.md'
+      - '9.6 职业与权威': '3.Application/09.career/05.career-and-authority.md'
+      - '9.7 职业与勇气': '3.Application/09.career/06.career-and-courage.md'
+      - '9.8 职业与智慧': '3.Application/09.career/07.career-and-intelligence.md'
+      - '9.9 小结': '3.Application/09.career/08.小结.md'
+    - '10.金钱':
+      - '10.1 简介': '3.Application/10.money/00.money.md'
+      - '10.2 金钱与真': '3.Application/10.money/01.money-and-truth.md'
+      - '10.3 金钱与爱': '3.Application/10.money/02.money-and-love.md'
+      - '10.4 金钱与力量': '3.Application/10.money/03.money-and-power.md'
+      - '10.5 金钱与一体化': '3.Application/10.money/04.money-and-oneness.md'
+      - '10.6 金钱与公平': '3.Application/10.money/05.money-and-fairness.md'
+      - '10.7 金钱与权威': '3.Application/10.money/06.money-and-authority.md'
+      - '10.8 金钱与勇气': '3.Application/10.money/07.money-and-courage.md'
+      - '10.9 金钱与智慧': '3.Application/10.money/08.money-and-intelligence.md'
+      - '10.10 小结': '3.Application/10.money/09.小结.md'
+    - '11.健康':
+      - '11.1 简介': '3.Application/11.health/00.health.md'
+      - '11.2 健康与真': '3.Application/11.health/01.health-and-truth.md'
+      - '11.3 健康与爱': '3.Application/11.health/02.health-and-love.md'
+      - '11.4 健康与力量': '3.Application/11.health/03.health-and-power.md'
+      - '11.5 健康与一体化': '3.Application/11.health/04.health-and-oneness.md'
+      - '11.6 健康与权威': '3.Application/11.health/05.health-and-authority.md'
+      - '11.7 健康与勇气': '3.Application/11.health/06.health-and-courage.md'
+      - '11.8 健康与智慧': '3.Application/11.health/07.health-and-intelligence.md'
+      - '11.9 小结': '3.Application/11.health/08.小结.md'
+    - '12.人际关系':
+      - '12.1 简介': '3.Application/12.relationships/00.relationships.md'
+      - '12.2 关系与真': '3.Application/12.relationships/01.relationships-and-truth.md'
+      - '12.3 关系与爱': '3.Application/12.relationships/02.relationships-and-love.md'
+      - '12.4 关系与力量': '3.Application/12.relationships/03.relationships-and-power.md'
+      - '12.5 关系与一体化': '3.Application/12.relationships/04.relationship-and-oneness.md'
+      - '12.6 关系与权威': '3.Application/12.relationships/05.relationships-authority.md'
+      - '12.7 关系与勇气': '3.Application/12.relationships/06.relationships-and-courage.md'
+      - '12.8 关系与智慧': '3.Application/12.relationships/07.relationships-and-intelligence.md'
+      - '12.9 小结': '3.Application/12.relationships/08.小结.md'
+    - '13.灵性':
+      - '13.1 简介': '3.Application/13.spirituality/00.spirituality.md'
+      - '13.2 精神与真': '3.Application/13.spirituality/01.spirituality-and-truth.md'
+      - '13.3 精神与爱': '3.Application/13.spirituality/02.spirituality-and-love.md'
+      - '13.4 精神与力量': '3.Application/13.spirituality/03.spirituality-and-power.md'
+      - '13.5 精神与一体化': '3.Application/13.spirituality/04.spirituality-and-oneness.md'
+      - '13.6 精神与权威': '3.Application/13.spirituality/05.spirituality-and-authority.md'
+      - '13.7 精神与勇气': '3.Application/13.spirituality/06.spirituality-and-courage.md'
+      - '13.8 精神与智慧': '3.Application/13.spirituality/07.spirituality-and-intelligence.md'
+      - '13.9 小结': '3.Application/13.spirituality/08.小结.md'
+  - 'Ⅳ后记': '后记.md'
