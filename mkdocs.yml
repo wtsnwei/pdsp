@@ -117,15 +117,15 @@ nav:
     - '5.authority':
         - '5.1 简介': '2.Principles/05.authority/00.authority.md'
         - '5.2 指挥': '2.Principles/05.authority/01.command.md'
-        - '5.3 高效 ': '2.Principles/05.authority/02.effectiveness.md'
+        - '5.3 效力 ': '2.Principles/05.authority/02.effectiveness.md'
         - '5.4 坚持': '2.Principles/05.authority/03.persistence.md'
         - '5.5 信心': '2.Principles/05.authority/04.confidence.md'
-        - '5.6 重要性': '2.Principles/05.authority/05.significance.md'
-        - '5.7 增加authority':
+        - '5.6 意义': '2.Principles/05.authority/05.significance.md'
+        - '5.7 增强authority':
           - '序': '2.Principles/05.authority/06.increase-authority.md'
-          - '策划小规模叛乱': '2.Principles/05.authority/07.orchestrate-small-rebellions.md'
-          - '分类': '2.Principles/05.authority/08.triage.md'
-          - '实验': '2.Principles/05.authority/09.experiment.md'
+          - '策划小反抗': '2.Principles/05.authority/07.orchestrate-small-rebellions.md'
+          - '归类': '2.Principles/05.authority/08.triage.md'
+          - '实际': '2.Principles/05.authority/09.experiment.md'
         - '5.8 小结': '2.Principles/05.authority/10.小结.md'
     - '6.courage':
         - '6.1 简介': '2.Principles/06.courage/00.courage.md'
