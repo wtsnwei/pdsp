@@ -1,4 +1,6 @@
 site_name: Personal Development for Smart People
+repo_url: https://github.com/wtsnwei/pdsp
+site_url: https://wtsnwei.github.io/pdsp/
 
 theme:
   name: 'material'
