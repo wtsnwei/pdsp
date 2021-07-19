@@ -12,3 +12,7 @@
 
 水平有限，只能勉强做到语义通顺（其实有些地方还没做到），欢迎在该项目的 issue 上提出建议！
 
+#### 贡献
+
+* 感谢 **[@heyeshuang](https://github.com/heyeshuang)** 提供生成的 epub 文件，有需要的小伙伴可以到[这里](https://github.com/wtsnwei/pdsp/issues/2)下载
+
