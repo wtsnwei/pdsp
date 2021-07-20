@@ -23,7 +23,7 @@
 
 #### 生成 epub
 
-感谢**[@heyeshuang](https://github.com/heyeshuang)** 提供的建议，这里使用 mkdocscombine、pandoc 来生成 epub。
+感谢 [@heyeshuang](https://github.com/heyeshuang) 提供的建议，这里使用 mkdocscombine、pandoc 来生成 epub。
 
 ```bash
 # 合并文件
@@ -58,5 +58,5 @@ pandoc mydocs.pd -o mydocs.pdf --latex-engine=xelatex -V mainfont=".PingFang SC"
 
 #### 贡献
 
-* 感谢 **[@heyeshuang](https://github.com/heyeshuang)** 提供生成的 epub 文件，有需要的小伙伴可以到[这里](https://github.com/wtsnwei/pdsp/issues/2)下载
+* 感谢 [@heyeshuang](https://github.com/heyeshuang) 提供生成的 epub 文件，有需要的小伙伴可以到[这里](https://github.com/wtsnwei/pdsp/issues/2)下载
 
