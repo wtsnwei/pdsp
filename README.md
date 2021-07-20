@@ -14,7 +14,7 @@
 
 #### 依赖
 
-如果需要生成epub和pdf离线文件，还需要其他依赖，详细说明见 [requirements](requirements)。
+如果需要生成epub和pdf离线文件，还需要其他依赖，详细说明见 [requirements](requirements.txt)。
 
 * mkdocscombine
 * pandoc=1.19.2.1
