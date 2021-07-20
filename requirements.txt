@@ -1,2 +1,13 @@
-pip install mkdocs-material  
-pip install mkdocs  
+[python三方包]
+mkdocs-material=7.1.9
+mkdocs=1.2.1
+mkdocscombine=0.4.0.0
+
+[依赖1:借助pandoc来转换文档]
+pandoc=1.19.2.1
+
+[依赖2:pandoc生成含中文的pdf时需要xelatex, windows下推荐安装texlive, 如果不要pdf,可不安装]
+texlive
+
+[可选依赖3:字体美化]
+萍方
