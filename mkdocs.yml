@@ -29,13 +29,13 @@ extra_javascript:
 nav:
   - '首页': 'index.md'
 
-  - 'Ⅰ介绍':
+  - '一、介绍':
     - '什么是聪明人的个人发展？': '1.Introduction/01.What-Is-Personal-Development-for-Smart-People.md'
     - '核心原则标准': '1.Introduction/02.Qualities-of-the-Core-Principles.md'
     - '七项原则': '1.Introduction/03.Introducing-the-Seven-Principles.md'
     - '如何读这本书': '1.Introduction/04.How-to-Read-This-Book.md'
 
-  - 'Ⅱ原则':
+  - '二、原则':
     - '1.Truth':
       - '1.1 简介': '2.Principles/01.truth/00.Truth.md'
       - '1.2 感知': '2.Principles/01.truth/01.perception.md'
@@ -157,7 +157,7 @@ nav:
         - '7.8 小结': '2.Principles/07.intelligence/10.小结.md'
 
 
-  - 'Ⅲ应用':
+  - '三、应用':
     - '8.习惯':
       - '8.1 简介': '3.Application/08.habits/00.habits.md'
       - '8.2 习惯与真': '3.Application/08.habits/01.habits-and-truth.md'
