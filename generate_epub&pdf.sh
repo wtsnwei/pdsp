@@ -3,8 +3,6 @@ mkdocscombine -o mydocs.pd
 
 # 处理中间文件
 sed -i 's/{: .page-title}//g' mydocs.pd
-sed -i 's/title: .*//g' mydocs.pd
-sed -i 's/date: .*//g' mydocs.pd
 
 # 生成epub
 pandoc --toc -f markdown+grid_tables -t epub -o mydocs.epub mydocs.pd -V mainfont=".PingFang SC"

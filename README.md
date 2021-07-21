@@ -50,7 +50,7 @@ mkdocscombine -o mydocs.pd
 # 处理中间文件
 sed -i 's/{: .page-title}//g' mydocs.pd
 
-# 生成pdf,可以通过 template 指定模板
+# 生成pdf,可以通过 --template 指定模板
 pandoc mydocs.pd -o mydocs.pdf --latex-engine=xelatex -V mainfont=".PingFang SC" --template=template.tex
 ```
 
