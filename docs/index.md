@@ -1,3 +1,10 @@
+---
+title: Personal Development for Smart People
+date:
+---
+
+
+
 # 欢迎语
 
 这里是《Personal Development for Smart People》的中文翻译版，全程由个人完成。
