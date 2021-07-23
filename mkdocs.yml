@@ -27,7 +27,7 @@ extra_javascript:
 
 
 nav:
-  - '首页': 'index.md'
+  - '译序': 'index.md'
 
   - '一、介绍':
     - '什么是聪明人的个人发展？': '1.Introduction/01.What-Is-Personal-Development-for-Smart-People.md'
