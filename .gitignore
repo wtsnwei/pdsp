@@ -1,1 +1,9 @@
+# mkdocs bulid产生的文件夹
 site/
+
+# mkdocscombine 生成的文件
+*.pd
+
+# pandoc编译产生的文件
+*.pdf
+*.epub
