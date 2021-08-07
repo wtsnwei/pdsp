@@ -14,4 +14,5 @@ pandoc "pdsp.pd" -o "pdsp.pdf" --from markdown --template "eisvogel.tex" --listi
 # mainfont为操作系统上存在的字体
 # pandoc pdsp.pd -o pdsp.pdf --latex-engine=xelatex -V mainfont=".PingFang SC" --template=template.tex
 
-  
+# 删除生成的中间文件
+rm *.pd
