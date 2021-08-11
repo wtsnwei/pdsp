@@ -45,19 +45,19 @@ $endif$
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \newcommand{\euro}{€}
 
-% $if(mainfont)$
-%     \setmainfont{$mainfont$}
-% $endif$
-% $if(sansfont)$
-%     \setsansfont{$sansfont$}
-% $endif$
-% $if(monofont)$
-%     \setmonofont[Mapping=tex-ansi]{$monofont$}
-% $endif$
-% $if(CJKmainfont)$
-%     \usepackage{xeCJK}
-%     \setCJKmainfont[$CJKoptions$]{$CJKmainfont$}
-% $endif$
+$if(mainfont)$
+    \setmainfont{$mainfont$}
+$endif$
+$if(sansfont)$
+    \setsansfont{$sansfont$}
+$endif$
+$if(monofont)$
+    \setmonofont[Mapping=tex-ansi]{$monofont$}
+$endif$
+$if(CJKmainfont)$
+    \usepackage{xeCJK}
+    \setCJKmainfont[$CJKoptions$]{$CJKmainfont$}
+$endif$
 
 
 % 字体的设置，可以自行修改
