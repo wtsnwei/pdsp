@@ -33,7 +33,7 @@ mkdocscombine -o mydocs.pd
 sed -i 's/{: .page-title}//g' mydocs.pd
 
 # 生成epub
-pandoc --toc -f markdown+grid_tables -t epub -o mydocs.epub mydocs.pd -V mainfont=".PingFang SC"
+pandoc --toc -f markdown+grid_tables -t epub -o mydocs.epub mydocs.pd
 
 ```
 
