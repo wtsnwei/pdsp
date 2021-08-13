@@ -1,5 +1,6 @@
 ---
 title: Personal Development for Smart People
+date:
 ---
 
 
