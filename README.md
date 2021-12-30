@@ -1,9 +1,11 @@
 # PDSP
 
 #### 介绍
+
 《Personal Development for Smart People》的中文自译版
 
 #### 序言
+
 这里是《Personal Development for Smart People》的中文翻译版，全程由个人完成。
 
 该项目已经部署到 pages 服务上了，欢迎大家访问项目 **[pages](https://wtsnwei.github.io/pdsp/)**
@@ -34,10 +36,7 @@ sed -i 's/{: .page-title}//g' mydocs.pd
 
 # 生成epub
 pandoc --toc -f markdown+grid_tables -t epub -o mydocs.epub mydocs.pd
-
 ```
-
-
 
 #### 生成 pdf
 
@@ -54,9 +53,6 @@ sed -i 's/{: .page-title}//g' mydocs.pd
 pandoc mydocs.pd -o mydocs.pdf --latex-engine=xelatex -V mainfont=".PingFang SC" --template=template.tex
 ```
 
-
-
 #### 贡献
 
 * 感谢 [@heyeshuang](https://github.com/heyeshuang) 提供生成的 epub 文件，有需要的小伙伴可以到[这里](https://github.com/wtsnwei/pdsp/issues/2)下载
-

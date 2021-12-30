@@ -1,6 +1,7 @@
 ---
 title: Personal Development for Smart People
 date:
+fontsize: 14pt
 ---
 
 
