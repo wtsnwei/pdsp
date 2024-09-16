@@ -21,7 +21,7 @@
 * mkdocscombine
 * pandoc=1.19.2.1
 * texlive或其他 xelatex 引擎
-* 萍方字体（美化字体，不要也可以）
+* 霞鹜文楷字体（美化字体，不要也可以）
 
 #### 生成 epub
 
@@ -50,7 +50,7 @@ mkdocscombine -o mydocs.pd
 sed -i 's/{: .page-title}//g' mydocs.pd
 
 # 生成pdf,可以通过 --template 指定模板
-pandoc mydocs.pd -o mydocs.pdf --latex-engine=xelatex -V mainfont=".PingFang SC" --template=template.tex
+pandoc mydocs.pd -o mydocs.pdf --latex-engine=xelatex -V mainfont="LXGW WenKai" --template=template.tex
 ```
 
 #### 贡献
